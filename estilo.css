@@ -1,0 +1,35 @@
+/*Se da formato a la clase encabezado del documento HTML, utilizando la propiedad font-family, para definir la
+fuente del texto, text-aling para darle orientación, y color al nombre de la cafetería.*/
+.encabezado{
+    font-family: 'Gabriola', Times, serif;
+    text-align: left;
+    color: white;
+}
+/*Se le asigna un fondo de imagen al encabezado con background*/
+.fondo{
+    background: url(imagenes/fondo.jpeg);
+    /*Permite que la imagen de fondo no se repita*/
+    background-repeat: no-repeat;
+}
+/*Se le asigna tipo de fuente a la letra, de la barra menu con font-family*/
+.menu{
+    font-family: 'Microsoft YaHei Light';
+    /*Permite centrar el texto del menu*/
+    text-align: center;
+}
+/*Se le asigna tipo de fuente a la letra de la clase contenido con font-family*/
+.contenido{
+    font-family: 'Microsoft YaHei Light';
+    /*Permite centrar el texto*/
+    text-align: center;
+    /*Permite cambiar el tamaño de letra de acuerdo a su valor asignado en porcentaje*/
+    font-size: 145%;
+}
+/*Se le da estilo al tipo de fuente de pie de página con font-family*/
+.pie{
+    font-family:'Microsoft YaHei Light';
+    /*Permite centrar el texto*/
+    text-align: center;
+    /*Permite cambiar el tamaño de letra de acuerdo a su valor asignado en porcentaje*/
+    font-size: 90%;
+}

@@ -1,0 +1,219 @@
+<!--Específica que va a inicir el documento HTML y permite que el navegador entienda la versión-->
+<!DOCTYPE html>
+<!--Se incluye el atributo lang dentro de la etiqueta <html> para declarar el idioma de la página web-->
+<html lang="en">
+<!--Contiene información acerca del documento-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Define el título del documento y se muestra en la barra o pestaña del navegador-->
+    <title>Cafetería JAZ</title>
+
+    <!--Importa Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--CSS compilado y minimizado-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!--Se importa el estilo.css-->
+    <link rel="stylesheet" href="estilo.css">
+    <!--Se cierra la etiqueta <head>-->
+</head>
+<!--Contiene todo el contenido del documento-->
+<body>
+    <!--Permite crear la clase container-->
+    <div class="container">
+        <!--Se genera una fila para el documento, utilizando el row-->
+        <div class="row">
+            <!--Se ocupa la clase fondo del CSS, creamos un diseño adaptable con m 
+                donde se definen 12  columnas-->
+            <div class="col m12 fondo">
+                <!--Se utiliza <h1> para la tipografía del encabezado, <i> para hacerla la
+                    letra en cursiva y <p> marca que es un párrafo con la clase encabezado del CSS-->
+                <h1><i>
+                        <p class="encabezado">Cafetería ¡Pasale, pasale!</p>
+                        <!--Se cierran las etiquetas-->
+                    </i></h1><br>
+                    <!--Se cierra <div> de la clase fondo-->
+            </div>
+            <!--Se abre <div>, es la sección del menu, con 12 columnas y diseño adaptable, con color de
+                fondo-->
+            <div class="col m12 brown lighten-4 ">
+                <!--Se crea una tabla-->
+                <table>
+                    <!--Define una fila de celdas en una tabla-->
+                    <tr>
+                        <!--<th> define las celdas como encabezado del grupo menu en la tabla, con 
+                        todo el contenido.-->
+                        <th class="menu">INICIO</th>
+                        <th class="menu">NOSOTROS</th>
+                        <th class="menu">CARTA</th>
+                        <th class="menu">GALERÍA</th>
+                        <th class="menu">RESERVA</th>
+                        <!--Se cierra la fila de la tabla-->
+                    </tr>
+                    <!--Se finaliza la tabla-->
+                </table>
+                <!--Se cierra el <div> de la tabla-->
+            </div>
+            <!--Se crea un <div> para el contenido de la página-->
+            <div class="col m12 brown lighten-5"><br>
+                <!--Dento de <p> se crea la clase contenido, <b> para hacer la letra negrita-->
+                <p class="contenido"><b>Disfruta de un buen desayuno</b></p><br>
+                <!--Se crea <div> con m1 que es la separación entre la primer imagen y el texto-->
+                <div class="col m1"></div>
+                <!--Se crea <div> con m2, en donde indicamos en que imagen va a tomar las siguientes
+                    dos columnas-->
+                <div class="col m2">
+                    <!--Imagen 1 con la clase de diseño responsivo y circle para darle forma, src se utiliza 
+                        para especificar la ruta de la imagen y alt para darle una descripción en caso de 
+                        que no se muestre-->
+                    <img class="responsive-img circle" src="imagenes/cafe.jpg" alt="Imagen de un cafe">
+                    <!--Se define <h5> para el tamaño de texto "Cafes", y <p> con una clase para centrarlo-->
+                    <h5>
+                        <p class="center">Cafes</p>
+                    </h5>
+                    <!--Se crea un párrafo para la descripción de la primer imagen-->
+                    <p class="light center">Ofrecemos ricos cafes a tu preferencia</p>
+                    <!--Se cierra la etiqueta <div> de la primer imagen-->
+                </div>
+                <!--Se crea <div> con m2, en donde indicamos en que imagen va a tomar las siguientes
+                    dos columnas-->
+                <div class="col m2">
+                    <!--Imagen 2 con la clase de diseño responsivo y circle para darle forma, src se utiliza 
+                        para especificar la ruta de la imagen y alt para darle una descripción en caso de 
+                        que no se muestre-->
+                    <img class="responsive-img circle" src="imagenes/bebida.jpg" alt="Imagen de una frappe">
+                    <!--Se define <h5> para el tamaño de texto "Frappe", y <p> con una clase para centrarlo-->
+                    <h5>
+                        <p class="center">Frappe</p>
+                    </h5>
+                    <!--Se crea un párrafo para la descripción de la segunda imagen-->
+                    <p class="light center">Podras degustar de diferentes bebidas</p>
+                    <!--Se cierra la etiqueta <div> de la segunda imagen-->
+                </div>
+                <!--Se crea <div> con m2, en donde indicamos en que imagen va a tomar las siguientes
+                    dos columnas-->
+                <div class="col m2">
+                    <!--Imagen 3 con la clase de diseño responsivo y circle para darle forma, src se utiliza 
+                        para especificar la ruta de la imagen y alt para darle una descripción en caso de 
+                        que no se muestre-->
+                    <img class="responsive-img circle" src="imagenes/pastel.jpg" alt="Imagen de un pastel">
+                    <!--Se define <h5> para el tamaño de texto "Pasteles", y <p> con una clase para centrarlo-->
+                    <h5>
+                        <p class="center">Pasteles</p>
+                    </h5>
+                    <!--Se crea un párrafo para la descripción de la tercera imagen-->
+                    <p class="light center">Date un gusto con eso que siempre se te antoja</p>
+                    <!--Se cierra la etiqueta <div> de la tercera imagen-->
+                </div>
+                <!--Se crea <div> con m2, en donde indicamos en que imagen va a tomar las siguientes
+                    dos columnas-->
+                <div class="col m2">
+                    <!--Imagen 4 con la clase de diseño responsivo y circle para darle forma, src se utiliza 
+                        para especificar la ruta de la imagen y alt para darle una descripción en caso de 
+                        que no se muestre-->
+                    <img class="responsive-img circle" src="imagenes/pan.jpeg" alt="Imagen de un pan">
+                    <!--Se define <h5> para el tamaño de texto "Pan", y <p> con una clase para centrarlo-->
+                    <h5>
+                        <p class="center">Pan</p>
+                    </h5>
+                    <!--Se crea un párrafo para la descripción de la quinta imagen-->
+                    <p class="light center sub-header">Hay ricos pan para probar y compartir</p>
+                    <!--Se cierra la etiqueta <div> de la cuarta imagen-->
+                </div>
+                <!--Se crea <div> con m2, en donde indicamos en que imagen va a tomar las siguientes
+                    dos columnas-->
+                <div class="col m2">
+                    <!--Imagen 5 con la clase de diseño responsivo y circle para darle forma, src se utiliza 
+                        para especificar la ruta de la imagen y alt para darle una descripción en caso de 
+                        que no se muestre-->
+                    <img class="responsive-img circle" src="imagenes/hambu.jpg" alt="Imagen de una hamburguesa">
+                    <!--Se define <h5> para el tamaño de texto "Hamburguesa", y <p> con una clase para centrarlo-->
+                    <h5>
+                        <p class="center">Hamburguesa</p>
+                    </h5>
+                    <!--Se crea un párrafo para la descripción de la sexta imagen-->
+                    <p class="light center sub-header">Podras disfrutar de hamburguesas con papas</p>
+                </div>
+                <!--Creamos un <div> con un diseño adaptable, donde se definen 12 columnas, después se le aplica
+                    color de fondo-->
+                <div class="col m12 brown lighten-5">
+                    <!--Utilizamos <p> con la clase contenido del CSS-->
+                    <p class="contenido">
+                        <!--<b> se utiliza para hacer la letra en negrita-->
+                        <b>¡Consiéntete!</b>
+                        <!--Se cierra la etiqueta <p> con la clase contenido-->
+                    </p>
+                    <!--Creamos un salto de línea-->
+                    <br>
+                    <!--Se cierra la etiqueta <div>-->
+                </div>
+                <!--Se cierra la etiqueta <div> del contenido-->
+            </div>
+            <!--Se crea <div> con m6, en donde indicamos que iniciar la primera parte del pie de página-->
+            <div class="col m6 brown lighten-4 ">
+                <!--Creamos <h6> para la tipografía que se utiliza para el pie página-->
+                <h6>
+                    <!--Creamos <p> para la clase pie en CSS-->
+                    <p class="pie">Creadores:</p>
+                    <!--Se cierra la etiqueta <h6>-->
+                </h6>
+                <!--Creamos <h6> para la tipografía que se utiliza para el pie página-->
+                <h6>
+                    <!--Creamos <p> para la clase pie en CSS-->
+                    <p class="pie">Azpeitia Acosta Joselin</p>
+                    <!--Se cierra la etiqueta <h6>-->
+                </h6>
+                <!--Creamos <h6> para la tipografía que se utiliza para el pie página-->
+                <h6>
+                    <!--Creamos <p> para la clase pie en CSS-->
+                    <p class="pie">Delgado Piñeiro Zurisadahi Osmara</p>
+                    <!--Se cierra la etiqueta <h6>-->
+                </h6>
+                <!--Creamos <h6> para la tipografía que se utiliza para el pie página-->
+                <h6>
+                    <!--Creamos <p> para la clase pie en CSS-->
+                    <p class="pie">Hernández Herrera Anayeli Monserrat</p>
+                    <!--Se cierra la etiqueta <h6>-->
+                </h6>
+                <!--Se cierra <div> de la primera parte pie de página-->
+            </div>
+            <!--Se crea <div> con m6, en donde indicamos que iniciar la segunda parte del pie de página-->
+            <div class="col m6 brown lighten-4 pie">
+                <!--Creamos <h6> para la tipografía que se utiliza para el pie página-->
+                <h6>
+                    <!--Creamos <p> para la clase pie en CSS-->
+                    <p class="pie">Contactos:</p>
+                    <!--Se cierra la etiqueta <h6>-->
+                </h6>
+                <!--Creamos <h6> para la tipografía que se utiliza para el pie página-->
+                <h6>
+                    <!--Creamos <p> para la clase pie en CSS-->
+                    <p class="pie">itsoeh@itsoeh.edu.mx</p>
+                    <!--Se cierra la etiqueta <h6>-->
+                </h6>
+                <!--Creamos <h6> para la tipografía que se utiliza para el pie página-->
+                <h6>
+                    <!--Creamos <p> para la clase pie en CSS-->
+                    <p class="pie">Tel: 7725631452</p>
+                    <!--Se cierra la etiqueta <h6>-->
+                </h6>
+                <!--Creamos <h6> para la tipografía que se utiliza para el pie página-->
+                <h6>
+                    <!--Creamos <p> para la clase pie en CSS-->
+                    <p class="pie">ITIC's</p>
+                    <!--Se cierra la etiqueta <h6>-->
+                </h6>
+            <!--Se cierra <div> de la segunda parte del pie de página-->
+            </div>
+            <!--Se cierra el <div> de la fila-->
+        </div>
+        <!--Se cierra el <div> de la clase container-->
+    </div>
+    <!--Se cierra la etiqueta <body>-->
+</body>
+<!--Se cierra la etiqueta de HTML-->
+</html>
